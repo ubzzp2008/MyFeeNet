@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">费用管理</string>
+    <!--LoginActivity-->
+    <string name="sign_in" translatable="false">登录</string>
+    <string name="account" translatable="false">请输入用户名</string>
+    <string name="password" translatable="false">请输入密码</string>
+    <string name="remember_pwd" translatable="false">记住密码</string>
+    <string name="tv_register" translatable="false">还没有注册帐号</string>
+    <string name="tv_forget_pwd">忘记密码</string>
+    <!--MainActivity-->
+    <string name="tab_home">首页</string>
+    <string name="tab_me">个人中心</string>
+    <string name="home_fee_add">新增费用</string>
+    <string name="home_fee_income">收入明细</string>
+    <string name="home_fee_pay">支出明细</string>
+    <string name="me_user_search">用户查询</string>
+    <string name="wait_for_develop">待开发</string>
+
+
+</resources>

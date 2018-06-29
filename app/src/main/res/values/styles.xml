@@ -1,0 +1,25 @@
+<resources>
+
+
+    <style name="btn_login_general">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/btn_login_general</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/base_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LayItemLoginInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/textfield_light</item>
+        <item name="android:textSize">@dimen/base_size</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textColorHint">@color/text_light_grey</item>
+        <item name="android:drawablePadding">@dimen/activity_horizontal_margin_half</item>
+    </style>
+
+</resources>

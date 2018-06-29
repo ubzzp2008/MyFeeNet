@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="top_base">#0E6DB1</color>
+
+    <color name="text_gray">#ff636163</color>
+    <color name="text_light_grey">#ff898989</color>
+    <color name="text_list_base">#0c52bd</color>
+    <color name="text_money">#ea0120</color>
+    <color name="base">#3f62d6</color>
+    <color name="base_light">#4c77e4</color>
+    <color name="base_input">#ffffff</color>
+
+    <color name="input_default">#BDC7D8</color>
+    <color name="input_focus">#728ea3</color>
+    <color name="input_focus1">#66cccc</color>
+
+
+    <color name="yellow">#eb4f38</color>
+    <color name="dark_gray">#8a8a8a</color>
+    <color name="devider_line">#E7E7E7</color>
+</resources>
