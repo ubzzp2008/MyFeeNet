@@ -15,6 +15,17 @@
     <string name="home_fee_pay">支出明细</string>
     <string name="me_user_search">用户查询</string>
     <string name="wait_for_develop">待开发</string>
+    <!--费用录入界面 FeeAddActivity-->
+    <string name="fee_useDate">费用日期:</string>
+    <string name="fee_money">费用金额:</string>
+    <string name="fee_useContent">费用说明:</string>
+    <string name="fee_note">备&#160;&#160;&#160;&#160;注:</string>
+    <string name="fee_createDate">创建时间:</string>
+    <string name="fee_feeType">费用类型:</string>
+    <string name="feeType_income">收&#160;&#160;入</string>
+    <string name="feeType_pay">支&#160;&#160;出</string>
 
+    <string name="btn_save">保存</string>
+    <string name="btn_reset">清空</string>
 
 </resources>

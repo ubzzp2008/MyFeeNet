@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".activity.home.MainActivity"></activity>
         <activity android:name=".activity.userinfo.UserInfoActivity"></activity>
+        <activity android:name=".activity.feeInfo.FeeAddActivity"></activity>
     </application>
 
 </manifest>

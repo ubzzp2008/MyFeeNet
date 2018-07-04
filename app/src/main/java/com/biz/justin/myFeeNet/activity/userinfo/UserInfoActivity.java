@@ -8,7 +8,7 @@ import com.biz.justin.myFeeNet.R;
 import com.biz.justin.myFeeNet.activity.adapter.CommonAdapter;
 import com.biz.justin.myFeeNet.activity.adapter.ViewHolder;
 import com.biz.justin.myFeeNet.activity.base.BaseActivity;
-import com.biz.justin.myFeeNet.entity.UserInfo;
+import com.biz.justin.myFeeNet.entity.userinfo.UserInfo;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.ViewInject;
