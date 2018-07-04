@@ -1,4 +1,4 @@
-package com.biz.justin.myFeeNet.entity;
+package com.biz.justin.myFeeNet.entity.userinfo;
 
 import java.io.Serializable;
 

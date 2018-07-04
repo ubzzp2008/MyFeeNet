@@ -17,7 +17,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.biz.justin.myFeeNet.R;
 import com.biz.justin.myFeeNet.activity.base.BaseActivity;
 import com.biz.justin.myFeeNet.activity.home.MainActivity;
-import com.biz.justin.myFeeNet.entity.UserInfo;
+import com.biz.justin.myFeeNet.entity.userinfo.UserInfo;
 import com.biz.justin.myFeeNet.util.AjaxJson;
 import com.biz.justin.myFeeNet.util.ProperTies;
 import com.biz.justin.myFeeNet.util.StaticParams;
@@ -110,6 +110,7 @@ public class LoginActivity extends BaseActivity {
         x.http().post(params, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String result) {
+                proDialog.dismiss();
                 Log.e("网络请求返回的json：", result);
                 AjaxJson json = JSONObject.parseObject(result, AjaxJson.class);
                 if (json.isSuccess()) {
