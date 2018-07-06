@@ -2,7 +2,6 @@ package com.biz.justin.myFeeNet.activity.userinfo;
 
 import android.os.Bundle;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 
 import com.biz.justin.myFeeNet.R;
 import com.biz.justin.myFeeNet.activity.adapter.CommonAdapter;
@@ -21,9 +20,6 @@ public class UserInfoActivity extends BaseActivity {
 
     @ViewInject(value = R.id.list_userInfos)
     private ListView listItem;
-
-    // 适配器
-    private SimpleAdapter listItemAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

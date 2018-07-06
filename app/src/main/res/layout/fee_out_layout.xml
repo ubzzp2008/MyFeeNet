@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fee_pay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.biz.justin.myFeeNet.activity.feeInfo.FeeOutActivity">
+
+    <include layout="@layout/top_layout" />
+
+    <TextView
+        android:id="@+id/fee_out_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cdecd1"
+        android:gravity="center"
+        android:textSize="@dimen/base_size" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/fee_pay_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape_fee_list_bottom"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/fee_list_pay_select_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fee_list_bottom_select_all"/>
+
+        <Button
+            android:id="@+id/fee_list_pay_select_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fee_list_bottom_select_back"/>
+
+        <Button
+            android:id="@+id/fee_list_pay_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fee_list_bottom_delete"/>
+
+    </LinearLayout>-->
+</LinearLayout>

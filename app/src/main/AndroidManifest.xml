@@ -21,8 +21,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.home.MainActivity"></activity>
+        <activity android:name=".activity.login.RegisterActivity"></activity>
         <activity android:name=".activity.userinfo.UserInfoActivity"></activity>
         <activity android:name=".activity.feeInfo.FeeAddActivity"></activity>
+        <activity android:name=".activity.feeInfo.FeeIncomeActivity"></activity>
+        <activity android:name=".activity.feeInfo.FeeOutActivity"></activity>
     </application>
 
 </manifest>

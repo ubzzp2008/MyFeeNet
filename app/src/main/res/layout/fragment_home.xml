@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:drawableTop="@mipmap/home_fee_pay"
-                    android:text="@string/home_fee_pay"
+                    android:text="@string/home_fee_out"
                     />
             </LinearLayout>
 

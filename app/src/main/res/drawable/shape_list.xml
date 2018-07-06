@@ -2,7 +2,7 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
        android:shape="rectangle">
     <solid android:color="#ffffff"/>
-    <corners android:radius="5dp"/>
+    <corners android:radius="0dp" /><!--边框角度的弧度-->
     <stroke
         android:width="1dip"
         android:color="@color/dark_gray"/>

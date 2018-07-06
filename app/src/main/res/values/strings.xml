@@ -12,9 +12,25 @@
     <string name="tab_me">个人中心</string>
     <string name="home_fee_add">新增费用</string>
     <string name="home_fee_income">收入明细</string>
-    <string name="home_fee_pay">支出明细</string>
+    <string name="home_fee_out">支出明细</string>
     <string name="me_user_search">用户查询</string>
     <string name="wait_for_develop">待开发</string>
+
+    <!--registorActivity-->
+    <string name="reg_save">注册</string>
+    <string name="reg_account">登录帐号:</string>
+    <string name="reg_realName">真&#160;实&#160;名:</string>
+    <string name="reg_phone">联系电话:</string>
+    <string name="reg_pwd">密&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
+    <string name="reg_pwd_confirm">确认密码:</string>
+    <string name="reg_sex">性&#160;&#160;&#160;&#160;&#160;&#160;别:</string>
+    <string name="reg_birthday">出生日期:</string>
+    <string name="reg_sex_man">男</string>
+    <string name="reg_sex_woman">女</string>
+    <!--UserInfoActivity-->
+    <string name="user_userName">用户名:</string>
+    <string name="user_realName">真实名:</string>
+
     <!--费用录入界面 FeeAddActivity-->
     <string name="fee_useDate">费用日期:</string>
     <string name="fee_money">费用金额:</string>
@@ -24,6 +40,9 @@
     <string name="fee_feeType">费用类型:</string>
     <string name="feeType_income">收&#160;&#160;入</string>
     <string name="feeType_pay">支&#160;&#160;出</string>
+
+    <!--FeeIncomeActivity-->
+    <string name="fee_count">合计：%1$.2f（元）</string>
 
     <string name="btn_save">保存</string>
     <string name="btn_reset">清空</string>
