@@ -22,4 +22,5 @@
     <color name="yellow">#eb4f38</color>
     <color name="dark_gray">#8a8a8a</color>
     <color name="devider_line">#E7E7E7</color>
+    <color name="listAdapter_line">#ff898989</color>
 </resources>

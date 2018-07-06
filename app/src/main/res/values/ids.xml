@@ -11,7 +11,7 @@
 
     <!--注册界面的ids-->
     <item name="reg_id_username" type="id"/>
-    <item name="reg_id_realname" type="id"/>
+    <item name="reg_id_realName" type="id" />
     <item name="reg_id_pwd" type="id"/>
     <item name="reg_id_pwd_confirm" type="id"/>
     <item name="reg_id_email" type="id"/>

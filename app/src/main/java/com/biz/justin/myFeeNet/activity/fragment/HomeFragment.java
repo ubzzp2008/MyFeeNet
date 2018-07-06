@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import com.biz.justin.myFeeNet.R;
 import com.biz.justin.myFeeNet.activity.feeInfo.FeeAddActivity;
+import com.biz.justin.myFeeNet.activity.feeInfo.FeeIncomeActivity;
+import com.biz.justin.myFeeNet.activity.feeInfo.FeeOutActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -32,6 +34,30 @@ public class HomeFragment extends BaseFragment {
     @Event(value = R.id.home_image_addFee)
     private void addFeeOnClick(View view) {
         Intent intent = new Intent(getActivity(), FeeAddActivity.class);
+        //跳转到费用新增页面
+        startActivity(intent);
+    }
+
+    /**
+     * 费用收入事件
+     *
+     * @param view
+     */
+    @Event(value = R.id.home_image_fee_income)
+    private void feeIncomeOnClick(View view) {
+        Intent intent = new Intent(getActivity(), FeeIncomeActivity.class);
+        //跳转到费用新增页面
+        startActivity(intent);
+    }
+
+    /**
+     * 费用支出事件
+     *
+     * @param view
+     */
+    @Event(value = R.id.home_image_fee_pay)
+    private void feePayOnClick(View view) {
+        Intent intent = new Intent(getActivity(), FeeOutActivity.class);
         //跳转到费用新增页面
         startActivity(intent);
     }

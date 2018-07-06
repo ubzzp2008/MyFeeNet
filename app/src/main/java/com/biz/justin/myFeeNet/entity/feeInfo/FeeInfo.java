@@ -43,9 +43,14 @@ public class FeeInfo implements Serializable {
      */
     private String note;//备注
     /**
-     * 费用备注
+     * 创建人
      */
-    private String addUser;//备注
+    private String createBy;// 创建人
+    /**
+     * 创建时间
+     */
+    private String createDateStr;
+
 
     public String getId() {
         return id;
@@ -95,11 +100,19 @@ public class FeeInfo implements Serializable {
         this.note = note;
     }
 
-    public String getAddUser() {
-        return addUser;
+    public String getCreateBy() {
+        return createBy;
     }
 
-    public void setAddUser(String addUser) {
-        this.addUser = addUser;
+    public void setCreateBy(String createBy) {
+        this.createBy = createBy;
+    }
+
+    public String getCreateDateStr() {
+        return createDateStr;
+    }
+
+    public void setCreateDateStr(String createDateStr) {
+        this.createDateStr = createDateStr;
     }
 }

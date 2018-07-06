@@ -182,9 +182,9 @@ public class FeeAddActivity extends BaseActivity {
             feeInfo.setMoney(fee);
             feeInfo.setUseContent(uNote);
             feeInfo.setNote(note.getText().toString());
-            feeInfo.setAddUser(getLoginName());
+            feeInfo.setCreateBy(getLoginName());
             //网络请求
-            String url = ProperTies.getServerUrl(this.getApplicationContext(), "feeInfoAI", "addFeeInfo");
+            String url = ProperTies.getServerUrl(this.getApplicationContext(), "feeInfo", "addFeeInfo");
             this.callRemoteLogin(url, JSONObject.toJSONString(feeInfo));
         }
     }

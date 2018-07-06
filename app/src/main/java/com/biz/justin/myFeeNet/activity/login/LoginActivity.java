@@ -52,8 +52,6 @@ public class LoginActivity extends BaseActivity {
      */
     private ProgressDialog proDialog;
 
-//    private UserInfoService userInfoService = new UserInfoServiceImpl();
-
     private long currentTime = 0;
 
     @Override
@@ -92,7 +90,7 @@ public class LoginActivity extends BaseActivity {
             proDialog = ProgressDialog.show(LoginActivity.this, null,
                     "数据加载中....", true, true);
             //网络请求
-            String url = ProperTies.getServerUrl(this.getApplicationContext(), "loginAI", "login");
+            String url = ProperTies.getServerUrl(this.getApplicationContext(), "login", "login");
             UserInfo userInfo = new UserInfo();
             userInfo.setUserName(userName);
             userInfo.setPassword(pwd);
@@ -168,8 +166,8 @@ public class LoginActivity extends BaseActivity {
     //注册按钮事件
     @Event(value = R.id.login_id_register, type = View.OnClickListener.class)
     private void registerTvOnClick(View view) {
-//        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-//        startActivity(intent);
+        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+        startActivity(intent);
     }
 
     //忘记密码事件

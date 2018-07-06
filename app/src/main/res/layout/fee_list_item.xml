@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--<CheckBox
+            android:id="@+id/item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:button="@drawable/selector_fee_list_item_image"
+            android:checked="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="gone"/>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_list"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <!--主键id-->
+            <TextView
+                android:id="@+id/item_fee_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+            <!--消费日期-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="3dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fee_useDate"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+                <TextView
+                    android:id="@+id/item_fee_useDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+            </LinearLayout>
+
+            <!--消费金额-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fee_money"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+                <TextView
+                    android:id="@+id/item_fee_money"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:textColor="@color/text_money"
+                    android:textSize="@dimen/base_list_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--消费说明-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fee_useContent"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+                <TextView
+                    android:id="@+id/item_fee_useContent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+            </LinearLayout>
+
+            <!--备注-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fee_note"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+                <TextView
+                    android:id="@+id/item_fee_note"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+            </LinearLayout>
+
+            <!--创建日期-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fee_createDate"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+                <TextView
+                    android:id="@+id/item_fee_createDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:textColor="@color/text_list_base"
+                    android:textSize="@dimen/base_list_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
