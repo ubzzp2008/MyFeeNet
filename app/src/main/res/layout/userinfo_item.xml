@@ -7,30 +7,7 @@
     android:paddingLeft="0dp"
     android:paddingRight="0dp">
 
-    <!--<RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shape_list"
-        android:paddingBottom="4dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp">
-
-        <TextView
-            android:id="@+id/list_username"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="3dp"
-            android:textSize="@dimen/base_size" />
-
-        <TextView
-            android:id="@+id/list_realname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/list_username"
-            android:maxLines="2"
-            android:paddingRight="@dimen/base_size" />
-
-    </RelativeLayout>-->
+    <!--用户名-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,7 +21,7 @@
             android:text="@string/user_userName" />
 
         <TextView
-            android:id="@+id/list_username"
+            android:id="@+id/item_user_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
@@ -52,6 +29,7 @@
 
     </LinearLayout>
 
+    <!--真实名-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,31 +43,57 @@
             android:text="@string/user_realName" />
 
         <TextView
-            android:id="@+id/list_realname"
+            android:id="@+id/item_user_realname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:paddingTop="3dp" />
 
     </LinearLayout>
-    <!--<TextView
-        android:id="@+id/list_username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="3dp"
-        android:textSize="@dimen/base_size" />
 
-    <TextView
-        android:id="@+id/list_realname"
+    <!--性别-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/list_username"
-        android:maxLines="2"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:textSize="@dimen/base_size" />-->
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:text="@string/user_sex" />
+
+        <TextView
+            android:id="@+id/item_user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp" />
+
+    </LinearLayout>
+
+    <!--联系电话-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:text="@string/user_phone" />
+
+        <TextView
+            android:id="@+id/item_user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp" />
+
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"

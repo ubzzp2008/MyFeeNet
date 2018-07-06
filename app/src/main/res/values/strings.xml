@@ -30,6 +30,8 @@
     <!--UserInfoActivity-->
     <string name="user_userName">用户名:</string>
     <string name="user_realName">真实名:</string>
+    <string name="user_sex">性&#160;&#160;&#160;&#160;&#160;别:</string>
+    <string name="user_phone">联系电话:</string>
 
     <!--费用录入界面 FeeAddActivity-->
     <string name="fee_useDate">费用日期:</string>

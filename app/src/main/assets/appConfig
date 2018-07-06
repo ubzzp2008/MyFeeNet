@@ -1,5 +1,5 @@
 #serverUrl=http://192.168.124.18:8080/bizAdmin
-#serverUrl=http://192.168.124.18:8080/myFee
+#serverUrl=http://192.168.124.18:8080/myFee/
 #serverUrl=http://zzp.meiyusc.com/bizAdmin
 serverUrl=http://zzp.meiyusc.com:8080/myFee/
 #serverUrl=http://192.168.2.104:8080/bizAdmin
